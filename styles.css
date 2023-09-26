@@ -1,0 +1,40 @@
+body {
+    background-color: #1C2733;
+}
+
+
+p {
+    color: rgb(196, 196, 196);
+    font-family: 'Trebuchet MS',sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+h1 {
+    color: rgb(179, 179, 179);
+    font-family: 'Candara',sans-serif;
+    font-size: 25px;
+
+}
+
+.home {
+    color: rgb(179, 179, 179);
+}
+
+
+nav ul { /*navigation, unordered list*/
+    display: flex; /*this makes it horizontal*/
+    list-style: none; /*this gets rid of the bullet points*/
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: rgb(179, 179, 179);
+    font-family: 'Candara',sans-serif;
+    font-size: 23px;
+    text-decoration: none; /*this gets rid of the underlines*/
+}
